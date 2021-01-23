@@ -24,3 +24,9 @@ This script uses the Reuters dataset from Keras to train and test a newswire cla
 ### Continuous Data Prediction Problem
 
 This script uses the Boston House Prices dataset to train and test a house price regression model. If no flags are used when calling the script, it will use k-fold validation to split the dataset into 4 partitions and run 100 epochs of each set to calculate the Mean Absolute Error and Mean Squared Error. If the flag `predict` is added at the end of the script call, the script will skip this section and train over the whole training dataset with 100 epochs and print predictions for the first 10 house prices.
+
+## 04 - Reading handwritten digits from the MNIST Dataset
+
+### Single-Label Multiclass Classification Problem
+
+This is a basic example of a Convolutional Neural Network (CNN). The script trains and tests against the MNIST dataset, before running predictions on the test dataset. The first 25 results are output to a `.png` image file.
