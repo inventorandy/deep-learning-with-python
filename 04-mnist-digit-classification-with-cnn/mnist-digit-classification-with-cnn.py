@@ -67,7 +67,7 @@ def plot_image(i, predictions_array, true_labels, imgs):
 	plt.xticks([])
 	plt.yticks([])
 
-	plt.imshow(img, cmap=plt.cm.binary)
+	plt.imshow(img)
 
 	predicted_label = np.argmax(predictions_array)
 	true_label = np.argmax(true_label)
@@ -80,6 +80,7 @@ def plot_image(i, predictions_array, true_labels, imgs):
 									  true_label),
 									  color=color)
 
+# Plot the first 25 predictions
 plt.figure(figsize=(10,10))
 for i in range(25):
 	plt.subplot(5,5,i+1)

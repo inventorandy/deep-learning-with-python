@@ -30,3 +30,9 @@ This script uses the Boston House Prices dataset to train and test a house price
 ### Single-Label Multiclass Classification Problem
 
 This is a basic example of a Convolutional Neural Network (CNN). The script trains and tests against the MNIST dataset, before running predictions on the test dataset. The first 25 results are output to a `.png` image file.
+
+## 05 - Classifying Cat and Dog Images with a small Dataset
+
+### Binary Classification Problem
+
+This script uses a small batch of data to train a model and augments the data by copying and randomly transforming images to increase the dataset size. Training and Validation Loss and Accuracy for both trainings are saved as graph images in `.png` format.

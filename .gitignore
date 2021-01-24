@@ -1,0 +1,14 @@
+# Ignore Data Directories and Archives
+*/data/
+*/data/*
+*.zip
+*.tar.gz
+
+# Ignore Saved Models
+*.h5
+
+# Ignore Images (e.g. Matplotlib Graphs)
+*.jpg
+*.jpeg
+*.gif
+*.png
